@@ -29,7 +29,12 @@ const waitlist = [{
 
 // Routes
 // =============================================================
-// Displays all table info.
+//tables route. GET returning tables data
+app.get("/tables", function(req, res) {
+    return res.json(tables);
+});
+
+// Displays all table info JSON format.
 app.get("/api/tables", function (req, res) {
   return res.json(tables);
 });
