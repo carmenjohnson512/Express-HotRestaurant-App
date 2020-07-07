@@ -1,0 +1,23 @@
+.restaurant-hero {
+    text-align: center;
+}
+
+.reservations {
+    border: 0.5px;
+    margin: 50px 350px;
+    padding: 10px 100px;
+}
+
+.reservationForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.input-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    width: 120%
+}
