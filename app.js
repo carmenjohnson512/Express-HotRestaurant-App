@@ -29,6 +29,11 @@ const waitlist = [{
 
 // Routes
 // =============================================================
+//adding home page route
+app.get("/", function(req, res) {
+    res.sendFile(path.join(__dirname, "./templates/home.html"));
+});
+
 //tables route. GET returning tables data
 app.get("/tables", function(req, res) {
     return res.json(tables);
