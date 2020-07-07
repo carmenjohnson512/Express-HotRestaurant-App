@@ -3,9 +3,10 @@
 }
 
 .reservations {
-    border: 0.5px;
-    margin: 50px 350px;
-    padding: 10px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: inherit;
 }
 
 .reservationForm {
@@ -21,3 +22,10 @@
     justify-content: center;    
     width: 120%
 }
+
+@media (max-width: 768px) {
+    .reservationForm {
+        width: 72%;
+    }
+}
+   
