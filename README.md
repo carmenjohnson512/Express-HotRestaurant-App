@@ -1,16 +1,59 @@
-# HotRestaurant
+# Express Restaurant App
 
-* Description: Basic app demonstrating Node and Express with jQuery. Overall purpose is to help schedule reservation requests. Restaurant has just 5 tables available. First five requests get a reservation, every request after that is sent to the waiting list.
-* Live Demo: <https://hot-restaurant-fsf.herokuapp.com/>
 
-![Hot Restaurant Image](Images/HotRestaurant.png)
 
-## Notes
 
-* You will NOT need a MySQL Database for this exercise.
-* Current app doesn't have admin handling. We'll deal with that at a later time.
-* Don't separate the JavaScript from the HTML in the client-side code. (i.e. Don't use external JavaScript. If you do, you will need an additional line of code to configure the express server to know where the JavaScript is).
+![MIT](https://img.shields.io/static/v1?label=License&message=MIT&color=green)
 
-## Good luck! Don't stress out
+## Description
 
-* Spend some time trying to build exposure. But don't get overwhelmed. We'll have plenty of time to come back to this.
+
+* Basic app demonstrating Node and Express with jQuery. Overall purpose is to help schedule reservation requests. Restaurant has just 5 tables available. First five requests get a reservation, every request after that is sent to the waiting list.
+
+
+## Table of Content
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [License](#License)
+* [Questions](#Questions)
+
+
+## Installation
+
+
+`Node JS` is required. Project will use `Express JS` to handle backend operations.
+1. Clone repo.
+2. Browse to repo folder and open CLI or Terminal
+3. Run `npm install` to download necessary node modules (including express )
+4. Run the App.
+
+
+## Usage
+
+
+1. Run App with `npm start`. 2. Browse to localhost:3000 to see the App's welcome page.
+
+## Contributing
+
+
+Front-End Dev: Carmen Johnson, Trey P. <br> Back-End: Samir Bello, Ariel Cuesta.
+
+## Tests
+
+
+No Testing dfeveloped at the moment.
+
+## License
+
+
+MIT
+
+## Questions
+
+
+Want to get in touch? Github: TBD
+
+Report bugs and enhancements to: TBD
+
