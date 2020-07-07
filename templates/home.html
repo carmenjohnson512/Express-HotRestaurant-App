@@ -5,38 +5,28 @@
         <title>Hot Restaurant App</title>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
         <title>
             Express Reservation
         </title>
-
-        <style>
-            .i-nav {
-            }
-        </style>
     </head>
 
-    <header class="jumbotron">
-        <div class="heading">
-            <h1 class="display-4">Welcome to Express Restaurant!</h1>
-        </div>
-        <div class="greeting">
-            <h2 class="display-4">We only have 5 tables! Reserve your spot before they are gone forever!</h2>
-            <a href="tables.html" class="btn btn-primary btn-lg">View Tables</a>
-            <a href="home.html" class="btn btn-secondary btn-lg">Home</a>
-            <a href="reservations.html" class="btn btn-primary btn-lg">Reserve</a>
-        </div>
-    </header>
-
     <body>
-        <div class="container">
-
+        <div class="jumbotron restaurant-hero">
+            <h1 class="display-4 header">Hot Restaurant</h1>
+            <div class="greeting">
+                <h4 class="display-4 subheader">We only have 5 tables! Reserve your spot before they are gone forever!</h4>
+                <hr class="my-4">
+                <a href="tables.html" class="btn btn-primary btn-lg" id="view-tables">View Tables</a>
+                <a href="reservations.html" class="btn btn-secondary btn-lg" id="make-reservation">Make Reservation</a>
+            </div>
         </div>
+
+        <footer>
+            <!-- <div>
+                <a href="">API Table Link</a>
+                <a href="">API Wait List</a>
+            </div> -->
+        </footer>
     </body>
-
-    <footer>
-        <div>
-            <a href="">API Table Link</a>
-            <a href="">API Wait List</a>
-        </div>
-    </footer>
 </html>

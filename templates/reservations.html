@@ -16,8 +16,8 @@
       <p class="lead">Make a Reservation</p>
       <hr class="my-4">
       <p>Please enter your information below to request a reservation.</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">View Tables</a>
-      <a class="btn btn-secondary btn-lg" href="#" role="button">Home</a>
+      <a class="btn btn-primary btn-lg" href="tables.html" role="button">View Tables</a>
+      <a class="btn btn-secondary btn-lg" href="home.html" role="button">Home</a>
     </div>
   
     <div class="reservations">
@@ -46,8 +46,25 @@
               <input type="text" class="form-control" id="reservationID">
             </div>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
       </form>
     </div>
 </body>
+
+<script type="text/javascript">
+
+  $("#submitButton").on("click", function() {
+    let customer = {
+      name: $("#name").text(),
+      phoneNumber: $("#phoneNumber").text(),
+      email: $("#email").text(),
+      id: $("reservationID").text()
+    }
+
+    customer.
+
+
+  });
+</script>
+<script src="/Express-HotRestaurant-App/app.js"></script>
 </html>

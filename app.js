@@ -73,7 +73,7 @@ function makeRes(customer){
         tables.push(customer)
     }
     else {
-        waitList.push(customer)
+        waitlist.push(customer)
     }
 }
 
